@@ -1,22 +1,22 @@
-<div class="place">
-  <div>
-    <app-navbar></app-navbar>
-    <app-header></app-header>
-    <div class="container">
-      <div class="trending">
-        <div>
-          <img src="../../../assets/trending.svg" alt="trending-icon">
+<div>
+    <app-header
+        btnAction="Lorem ipsum"
+        descriptionPage="Lorem ipsum  is simply dummy text of the printing and typesetting industry."
+        titlePage="Lorem ipsum." />
+
+      <div class="container">
+        <div class="trending">
+          <div>
+            <img src="../../../assets/trending.svg" alt="trending-icon">
+          </div>
+          <span>Lorem ipsum</span>
         </div>
-        <span>Lorem ipsum</span>
+        <app-post-card
+          id="1"
+          authorName="Steve"
+          cardTitle="My title..."
+          modifiedAt="June 16"
+          readTime="7 min" />
       </div>
-      <app-post-card
-        authorName="Steve"
-        cardTitle="My title..."
-        modifiedAt="June 16"
-        readTime="7 min" />
-    </div>
-  </div>
-  <div>
-    <app-footer></app-footer>
-  </div>
 </div>
+

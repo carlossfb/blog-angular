@@ -1,11 +1,10 @@
   <div class="post-card">
-    <div class="post-card__number">
-      01
+      <div class="post-card__number">
+        01
+      </div>
+      <div class="post-card__info">
+        <h3>{{authorName}}</h3>
+        <a [routerLink]="['content', id]"><h1>{{cardTitle}}</h1></a>
+        <span>{{modifiedAt}} - {{readTime}} </span>
+      </div>
     </div>
-    <div class="post-card__info">
-      <h3>{{authorName}}</h3>
-      <h1>{{cardTitle}}</h1>
-      <span>{{modifiedAt}} - {{readTime}} </span>
-    </div>
-  </div>
-

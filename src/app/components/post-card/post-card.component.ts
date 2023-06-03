@@ -14,6 +14,8 @@ export class PostCardComponent implements OnInit {
   modifiedAt:string = ""
   @Input()
   readTime:string = ""
+  @Input()
+  id:string=""
 
   constructor(){}
 

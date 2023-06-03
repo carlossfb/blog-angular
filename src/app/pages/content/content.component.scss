@@ -1,0 +1,41 @@
+.return{
+  position:absolute;
+  top:-3%;
+  left: 5%;
+  padding:2rem 0;
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer;
+  color: var(--title-color);
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  .title{
+    padding:2rem 0;
+    font-weight: 700;
+    font-size: 29px;
+  }
+  .author-card{
+    display:flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 14px;
+    p{
+      padding: .3rem;
+    }
+    .author-card__modified{
+      color: var(--span-color);
+    }
+  }
+}
+
+
+@media (min-width: 800px) {
+
+  .container{
+    margin: 0 auto;
+    width: 600px;
+  }
+
+}
