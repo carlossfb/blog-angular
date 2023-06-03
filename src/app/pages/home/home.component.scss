@@ -4,6 +4,13 @@
   align-items: center;
 }
 
+.place{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 @media (min-width: 800px) {
 
   .container{
