@@ -1,0 +1,33 @@
+.main{
+  background-color: var(--primary-color);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  .main__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 74px;
+    color:var(--title-color);
+  }
+  .main__description{
+    padding-top: 2.2rem;
+    padding-bottom: 3.14rem;
+    color:var(--paragraph-color);
+  }
+  .main__btn{
+    color:var(--secondary-color);
+    width: 213px;
+    height: 42px;
+    background: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 1980px;
+  }
+}
+@media (min-width: 800px) {
+
+  .main{
+   align-items: center;
+  }
+
+}

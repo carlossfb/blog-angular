@@ -1,0 +1,38 @@
+
+.navbar{
+  padding:1rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  border-bottom: 1px solid #292929;
+
+  .navbar__links{
+    font-weight: 400;
+    font-size: 13px;
+    display:flex;
+    align-items: center;
+    li{
+      padding: 0 1rem;
+    }
+    .navbar__links__focus{
+      background-color: var(--accent);
+      color: var(--secondary-color);
+      padding: 9px 16.09px 9px 17px;
+      border: 1px solid #191919;
+      border-radius: 1386px;
+
+    }
+  }
+
+}
+@media (min-width: 800px) {
+
+  .navbar{
+    justify-content: space-around;
+  }
+
+}
+
+
+
